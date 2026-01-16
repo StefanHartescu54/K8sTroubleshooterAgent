@@ -1,0 +1,30 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Kubernetes
+*.kubeconfig
+kubeconfig
+
+# Secrets (keep secrets.yaml as example, but ignore actual secret files)
+*-secret.yaml
+!secrets.yaml
+
+# Terraform (if used)
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# Helm
+charts/*.tgz
+
+# Logs
+*.log
